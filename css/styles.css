@@ -4,6 +4,16 @@ body {
     padding: 0 13%;
 }
 
+p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+hr {
+    margin: 2rem 0;
+    border-top: 1px solid hsl(236, 13%, 42%);
+}
+
 /* Navigation */
 
 .nav-item {
@@ -19,5 +29,60 @@ body {
 }
 
 #navigation {
-    padding: 4.5rem 0 3rem;
+    padding: 4rem 0 3rem;
+}
+
+/* First Section */
+
+.left-column {
+    padding-right: 2.3%;
+}
+
+.page-pic {
+    width: 100%;
+}
+
+.lower-left-section {
+    float: left;
+}
+
+.big-heading, .left-column-text {
+    padding: 4% 2%;
+}
+
+.big-heading h1 {
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+
+.read_more-button {
+    padding-top: 2%;
+}
+
+.read_more-button button {
+    background-color: hsl(5, 85%, 63%);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.read_more-button button:hover {
+    background-color:hsl(240, 100%, 5%);
+}
+
+.recent-news {
+    background-color: hsl(240, 100%, 5%);
+    padding: 0 2%;
+    margin-bottom: 2%;
+}
+
+.recents-heading {
+    color: hsl(35, 77%, 62%);
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.new-item-title {
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
 }
