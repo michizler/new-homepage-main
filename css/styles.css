@@ -1,7 +1,7 @@
 body {
     font-family: "Inter", sans-serif;
     background-color: hsl(36, 100%, 99%);
-    padding: 0 13%;
+    padding: 0 12%;
 }
 
 p {
@@ -85,4 +85,74 @@ hr {
 .new-item-title {
     color: hsl(233, 8%, 79%);
     font-weight: 700;
+}
+
+.new-item-title:hover {
+    color:hsl(35, 77%, 62%);
+    text-decoration: none;
+}
+
+/* Second section */
+
+.item-pic {
+    padding: 0 0;
+}
+
+.text-div {
+    height: fit-content;
+}
+
+.list-container {
+    margin: 4% 0;
+}
+
+.list-number {
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+.list-heading {
+    color:hsl(240, 100%, 5%);
+    font-weight: 700;
+    padding: 1%;
+}
+
+.list-heading:hover {
+    color:hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+@media (350px <= width <= 430px ) {
+    .item-pic {
+        height: 50%;
+        width: 50%;
+    }
+
+    .text-div {
+        height: 50%;
+        width: 50%;
+    }
+
+    .list-text {
+        font-size: 13px;
+    }
+
+    .credits {
+        font-size: xx-small;
+    }
+}
+
+/* Footer */
+
+.footer-credits {
+    background-color:hsl(240, 100%, 5%);
+    color:hsl(36, 100%, 99%);
+    text-align: center;  
+    margin: 5% 0;
+    padding: 3% 0;
+}
+
+.credits {
+    font-size: x-small;
 }
