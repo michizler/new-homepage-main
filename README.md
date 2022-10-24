@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.github.com/michizler/news-homepage-main)
-- Live Site URL: [](https://michizler.github.io/news-homepage-main/)
+- Solution URL: [Solution Repo](https://www.github.com/michizler/news-homepage-main)
+- Live Site URL: [Live page](https://michizler.github.io/news-homepage-main/)
 
 ## My process
 
